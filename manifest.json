@@ -1,0 +1,15 @@
+{
+  "name": "Hide chromium code search banner",
+  "description": "Hides all the useless pixels at the top of the code search interface on code.google.com/p/chromium.",
+  "version": "1.2",
+  "content_scripts": [
+    {
+      "matches": ["*://code.google.com/p/chromium/codesearch*"],
+      "css": ["hidebanner.css"]
+    }
+  ],
+  "manifest_version": 2,
+  "icons": {
+    "48": "48.png"
+  }
+}
