@@ -1,11 +1,7 @@
-.headbg, .gtb {
-    display: none;
-}
-
-.sandbar {
-    height: 0px !important;
-}
-
-.BY {
-    top: -132px !important;
+body {
+    position: absolute !important;
+    top: -136px !important;
+    left: 0 !important;
+    right: 0 !important;
+    bottom: 0 !important;
 }
